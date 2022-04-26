@@ -13,10 +13,10 @@
     <div>
         <h1>Checking if numbers are positive</h1>
 
-        <input type="text">
-        <button onclick="handleTestNumber(event)">Check?</button>
+        <input id="numberCheck" type="text" >
+        <button id="buttonCheck" onclick= "getElementById('positivityresult').innerHTML = handleTestNumber()">Check?</button>
 
-        <h2>Result : #</h2>
+        <p id="positivityresult"></p>
     </div>
 
     <div>

@@ -14,17 +14,17 @@
         <h1>Checking if numbers are positive</h1>
 
         <input id="numberCheck" type="text" >
-        <button id="buttonCheck" onclick= "getElementById('positivityresult').innerHTML = handleTestNumber()">Check?</button>
-
+        <button id="buttonPositivityCheck" onclick= "getElementById('positivityresult').innerHTML = handleTestNumber()">Check?</button>
         <p id="positivityresult"></p>
     </div>
 
     <div>
         <h1>Checking 3 values to find the largest number</h1>
-        <input type="text">
-        <input type="text">
-        <input type="text">
-        <h2>Result : #</h2>
+        <input id="userNumber1" type="text">
+        <input id="userNumber2" type="text">
+        <input id="userNumber3" type="text">
+        <button id="buttonLargestValue" onclick="getElementById('largestValue').innerHTML = handleValueCheck()">Check?</button>
+        <p id="largestValue"></p>
     </div>
 
     <div>

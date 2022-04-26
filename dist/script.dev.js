@@ -1,6 +1,6 @@
 "use strict";
 
-//function now get the pos and neg result in console.log ||| Can't display result ATM
+//function now shows the pos and neg result in a <p> under the <input>
 function handleTestNumber() {
   var testNumber = document.getElementById("numberCheck");
 
@@ -12,4 +12,11 @@ function handleTestNumber() {
     console.log("Value");
     return "Enter a valid Value";
   }
+} // function for checking the largest value
+
+
+function handleValueCheck() {
+  var userNumbers = document.getElementById('userNumber');
+  if (userNumbers.value > userNumbers.value) return userNumbers.value;
+  console.log(userNumbers);
 }

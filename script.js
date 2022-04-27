@@ -23,9 +23,7 @@ function handleValueCheck() {
     const userNumber2 = document.getElementById('userNumber2')
     const userNumber3 = document.getElementById('userNumber3')
  
-
-
-        if ( userNumber1.value > userNumber2.value && userNumber1.value > userNumber3.value ){
+         if ( userNumber1.value > userNumber2.value && userNumber1.value > userNumber3.value ){
             return userNumber1.value;
         } else if (userNumber2.value > userNumber1.value && userNumber2.value > userNumber3.value) {
             return userNumber2.value;
@@ -57,5 +55,31 @@ function handleValueCheck() {
 //             break;
 //     }
 // }
-
-//testing push from Main Pc
+function daysTillWeekend(){
+    switch (new Date().getDay()) {
+    case 0 :
+        return  "it's already the weekend"
+        break;
+    case 1:
+        return "1 days to go!"
+        break;
+    case 2:
+        return "2 days to go!"  
+        break;
+    case 3:
+        return "3 days to go!"
+        break;
+    case 4:
+        return "4 days to go!"
+        break;
+    case 5:
+        return "5 days to go!"
+        break;
+    case 6:
+        return "6 days to go!"
+        break
+    case 7:
+        return "it's already the weekend"
+        break;
+    }
+}

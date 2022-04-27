@@ -97,7 +97,9 @@ function foodPrices (event) {
              return "£1.50 per Kg "
              break;
         case "brocolli":
+            return "£1"
         case "cabbage":
+            return "£0.90"
         case "asparagus":
             return "£2.50 per Kg"
             break;

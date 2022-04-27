@@ -17,8 +17,6 @@ function handleTestNumber() {
 }
 
 //function for checking the largest value. 
-//function is working but cuts off before 3rd if else if number 2 
-//is higher than number 1
 
 function handleValueCheck() {
     const userNumber1 = document.getElementById('userNumber1')
@@ -60,4 +58,4 @@ function handleValueCheck() {
 //     }
 // }
 
-//testing push
+//testing push from Main Pc

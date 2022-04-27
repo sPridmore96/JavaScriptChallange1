@@ -76,9 +76,6 @@ function daysTillWeekend(){
         return "5 days to go!"
         break;
     case 6:
-        return "6 days to go!"
-        break
-    case 7:
         return "it's already the weekend"
         break;
     }
@@ -122,8 +119,4 @@ function foodPrices (event) {
 //             console.log("£2.50 per Kg")
 //             break;
 //     }
-// 
-// Testing once more
-
-//testsAgain
 

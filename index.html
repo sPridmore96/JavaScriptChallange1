@@ -34,17 +34,26 @@
 
     <div>
         <h1>SuperMarket items and prices</h1>
-        <select name="Food" id="" onchange="">
-            <option value="">Potatoes</option>
-            <option value="">Carrots</option>
-            <option value="">Brocolli</option>
-            <option value="">Cabbage</option>
-            <option value="">Asparagus</option>
+        <select id="foodChoices" onchange="getElementById('displayFoodPrices').innerHTML = foodPrices(event)">
+            <option>Select your food here</option>
+            <option>potatoes</option>
+            <option>carrots</option>
+            <option>brocolli</option>
+            <option>cabbage</option>
+            <option>asparagus</option>
         </select>
-        <div>
-            <h2>Prices per KG : # </h2>
-        </div>
+        <h1>Food prices</h1>
+        <p id="displayFoodPrices"></p>
     </div>
+
+            <!-- <h1>SuperMarket items and prices</h1>
+        <select onchange="changeItems(event)">
+            <option>potatoes</option>
+            <option>carrots</option>
+            <option>brocolli</option>
+            <option>cabbage</option>
+            <option>asparagus</option>
+        </select> -->
 </body>
 
 </html>

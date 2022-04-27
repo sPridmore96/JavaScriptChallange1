@@ -83,3 +83,41 @@ function daysTillWeekend(){
         break;
     }
 }
+
+function foodPrices (event) {
+
+    let foodChoice = event.target.value
+
+    switch (foodChoice) {
+        case "Select your food here":
+            return "Items price"
+            break;
+        case "potatoes":
+        case "carrots":
+             return "£1.50 per Kg "
+             break;
+        case "brocolli":
+        case "cabbage":
+        case "asparagus":
+            return "£2.50 per Kg"
+            break;
+    }
+}
+
+
+// function changeItems(event){
+
+// let foodSelection = event.target.value 
+
+//     switch (foodSelection){
+//         case "potatoes":
+//         case "carrots":
+//             console.log("£1.50 per Kg")
+//             break;
+//         case "brocolli":
+//         case "cabbage":
+//         case "aspargus":
+//             console.log("£2.50 per Kg")
+//             break;
+//     }
+// }

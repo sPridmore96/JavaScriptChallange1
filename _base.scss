@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Ubuntu:wght@300;700&display=swap');
 
-$font-color-primary: rgb(93, 176, 85);
+$color-black: #333333;
+$color-white: #fafafafa;
+$font-color-primary: $color-black;
+$font-color-secondary: rgb(32, 178, 218);
 $font-color-header: rgb(47, 87, 182);
 $font-family-primary: 'Ubuntu', sans-serif;
 $font-family-secondary: 'Lora', serif;
-$back-ground-color: rgb(208, 209, 208)
+$background-color: rgb(238, 245, 238);
+$button-color: rgb(201, 193, 213)

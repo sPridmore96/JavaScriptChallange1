@@ -1,14 +1,29 @@
+@import "./base.scss";
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-
-#checkingNumberPositivity {
-    background-color: $back-ground-color;
+#foodChoicesLayout{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
+    margin-bottom: 5vw ;
+
+    #foodChoices{
+        font-family: $font-family-primary;
+        color: $color-black;
+        font-weight: 700;
+        text-align: center;
+        height: 5vw;
+        width: auto;
+        margin: 2vw;
+    
+        #displayPrices{
+            display: flex;
+            flex-direction: column;
+            padding: 3vw;
+        }
+    }
 }

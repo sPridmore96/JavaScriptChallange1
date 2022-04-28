@@ -37,24 +37,25 @@ function handleValueCheck() {
 //function to show how many days are to the weekend using real date
 
 function daysTillWeekend(){
+    
     switch (new Date().getDay()) {
     case 0 :
         return  "it's already the weekend"
         break;
     case 1:
-        return "1 days to go!"
+        return "5 days to go!"
         break;
     case 2:
-        return "2 days to go!"  
+        return "4 days to go!"  
         break;
     case 3:
         return "3 days to go!"
         break;
     case 4:
-        return "4 days to go!"
+        return "2 days to go!"
         break;
     case 5:
-        return "5 days to go!"
+        return "1 days to go!"
         break;
     case 6:
         return "it's already the weekend"

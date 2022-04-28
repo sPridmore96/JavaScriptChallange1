@@ -16,7 +16,7 @@ function handleTestNumber() {
 
 }
 
-//function for checking the largest value. 
+//function for checking the largest value. can only complete this with number 0-9 
 
 function handleValueCheck() {
     const userNumber1 = document.getElementById('userNumber1')
@@ -34,27 +34,8 @@ function handleValueCheck() {
     }
 }
 
-//     switch (userNumber1.value, userNumber2.value, userNumber3.value) {
-//         case userNumber1.value:
-//             userNumber1.value > userNumber2.value
-//             userNumber1.value >userNumber3.value
-//             console.log(userNumber1.value)
-//             return userNumber1.value
-//             break;
-//         case userNumber2.value :
-//             userNumber2.value > userNumber1.value
-//             userNumber2.value > userNumber3.value
-//             console.log(userNumber2.value)
-//             return userNumber2.value
-//             break;
-//         case userNumber3.value :
-//             userNumber3.value > userNumber1.value
-//             userNumber3.value > userNumber2.value
-//             console.log(userNumber3.value)
-//             return userNumber3.value
-//             break;
-//     }
-// }
+//function to show how many days are to the weekend using real date
+
 function daysTillWeekend(){
     switch (new Date().getDay()) {
     case 0 :
@@ -81,6 +62,8 @@ function daysTillWeekend(){
     }
 }
 
+//function for when the user selects an item of food it will display the price
+
 function foodPrices (event) {
 
     let foodChoice = event.target.value
@@ -102,21 +85,3 @@ function foodPrices (event) {
             break;
     }
 }
-
-
-// function changeItems(event){
-
-// let foodSelection = event.target.value 
-
-//     switch (foodSelection){
-//         case "potatoes":
-//         case "carrots":
-//             console.log("£1.50 per Kg")
-//             break;
-//         case "brocolli":
-//         case "cabbage":
-//         case "aspargus":
-//             console.log("£2.50 per Kg")
-//             break;
-//     }
-

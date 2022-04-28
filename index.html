@@ -10,10 +10,10 @@
 </head>
 
 <body>
-    <div>
+    <div id="checkingNumberPositivity">
         <h1>Checking if numbers are positive</h1>
 
-        <input id="numberCheck" type="text" >
+        <input pattern="[0-9]*" id="numberCheck" type="text" >
         <button id="buttonPositivityCheck" onclick= "getElementById('positivityresult').innerHTML = handleTestNumber()">Check?</button>
         <p id="positivityresult"></p>
     </div>
@@ -23,7 +23,7 @@
         <input id="userNumber1" type="text">
         <input id="userNumber2" type="text">
         <input id="userNumber3" type="text">
-        <button id="buttonLargestValue" onclick="getElementById('largestValue').innerHTML = handleValueCheck()">Check?</button>
+        <button id="buttsonLargestValue" onclick="getElementById('largestValue').innerHTML = handleValueCheck()">Check?</button>
         <p id="largestValue"></p>
     </div>
 
@@ -46,15 +46,6 @@
         <h1>Food prices</h1>
         <p id="displayFoodPrices"></p>
     </div>
-
-            <!-- <h1>SuperMarket items and prices</h1>
-        <select onchange="changeItems(event)">
-            <option>potatoes</option>
-            <option>carrots</option>
-            <option>brocolli</option>
-            <option>cabbage</option>
-            <option>asparagus</option>
-        </select> -->
 </body>
 
 </html>

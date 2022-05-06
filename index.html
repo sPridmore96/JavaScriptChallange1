@@ -23,7 +23,7 @@
             <p id="positivityresult"></p>
         </div>
     </section>
-    <section id="checking3Values">
+    <!-- <section id="checking3Values">
         <div class="divSetUp">
             <h1>Checking 3 values to find the largest number</h1>
             <div class="horizontalInputLayout">
@@ -35,7 +35,7 @@
                 onclick="getElementById('largestValue').innerHTML = handleValueCheck()">Check?</button>
             <p id="largestValue"></p>
         </div>
-    </section>
+    </section> -->
     <section>
         <div class="divSetUp">
             <h1>Days until the weekend</h1>
@@ -47,7 +47,7 @@
         <div class="divSetUp">
             <h1>SuperMarket items and prices</h1>
             <div id="foodChoicesLayout">
-                <select id="foodChoices" onchange="getElementById('displayFoodPrices').innerHTML = foodPrices(event)">
+                <select id="foodChoices" onchange="getElementById('displayFoodPrices').innerHTML = handleFoodPrices(event)">
                     <option>Select your food here</option>
                     <option>potatoes</option>
                     <option>carrots</option>

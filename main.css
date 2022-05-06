@@ -24,7 +24,7 @@
 #foodChoicesLayout #foodChoices #displayPrices {
   display: flex;
   flex-direction: column;
-  padding: 3vw;
+  margin: 7vw;
 }
 
 .divSetUp {
